@@ -10,9 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
 </head>
-<body>
+<body class="max-w-[1440px] mx-auto">
 
-    <h1 class="text-xl text-center font-bold text-blue-500">Hello Tailwind</h1>
+    <!-- BANNER SECTION -->
+    <section class="banner h-[640px] m-2">
+        <!-- Header Section -->
+        <section class="flex items-center justify-between sticky top-0 px-6 py-6 md:py-10 md:px-12">
+            <img src="./images/logo.png" class="w-28 lg:w-36">
+            <i class="uil uil-bars text-white text-4xl md:hidden"></i>
+            <div class="hidden md:block">
+                <div class="flex items-center justify-start gap-6">
+                    <nav class="text-white flex items-center md:gap-2 lg:gap-10">
+                        <a href="#" class="font-light md:text-sm lg:text-base px-4 py-2 rounded-3xl bg-customWhite">Home</a>
+                        <a href="#" class="font-light md:text-sm lg:text-base px-4 py-2 rounded-3xl hover:bg-customWhite duration-100">Our Shop</a>
+                        <a href="#" class="font-light md:text-sm lg:text-base px-4 py-2 rounded-3xl hover:bg-customWhite duration-100">Product Details</a>
+                        <a href="#" class="font-light md:text-sm lg:text-base px-4 py-2 rounded-3xl hover:bg-customWhite duration-100">Contact Us</a>
+                    </nav>
+                    <button class="text-white uppercase bg-red-400 py-1 px-4 lg:py-2 lg:px-6 rounded-3xl">Sign in</button>
+                </div>
+            </div>
+        </section>
+    </section>
     
 </body>
 </html>
